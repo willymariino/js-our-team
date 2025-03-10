@@ -63,11 +63,11 @@ const newTaskElementCards = document.getElementById("team-cards")
         return
     }
     return
-}
+}/
    */
-renderHTML(newTaskElementCards)
+renderHTML(newTaskElementCards, teamMembers)
 
-function renderHTML(parent, elements) {
+function renderHTML(parent, element) {
   let items = ""
 
   for (let i = 0; i < elements.length; i++) {
@@ -87,20 +87,20 @@ function createHTMLElement(element) {
 
   return `<div class="card-item">
     <div class="image-box">
-      <img src="img/male1.png" class="team-member-image" alt="">
+      <img src="${member.image}" class="team-member-image" alt="${member.name}">
     </div>
     <div class="text-box">
-      <h2>Marco bianchi</h2>
+      <h2>${member.name}</h2>
       <p>
 
-        <strong> designer</strong> <br>
+        <strong> ${member.role}</strong> <br>
 
 
 
 
       </p>
 
-      <a href="#" class="button">marcobianchi@team.com</a>
+      <a href="#" class="button">${member.email}</a>
     </div>
   </div>`
 
