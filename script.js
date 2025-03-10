@@ -65,6 +65,7 @@ const newTaskElementCards = document.getElementById("team-cards")
     return
 }
    */
+renderHTML(newTaskElementCards)
 
 function addNewMembers(parent) {
   for (let i = 0; i < teamMembers.length; i++) {
