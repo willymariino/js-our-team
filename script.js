@@ -85,5 +85,25 @@ function renderHTML(parent, elements) {
 
 function createHTMLElement(element) {
 
+  return `<div class="card-item">
+    <div class="image-box">
+      <img src="img/male1.png" class="team-member-image" alt="">
+    </div>
+    <div class="text-box">
+      <h2>Marco bianchi</h2>
+      <p>
+
+        <strong> designer</strong> <br>
+
+
+
+
+      </p>
+
+      <a href="#" class="button">marcobianchi@team.com</a>
+    </div>
+  </div>`
+
+
 
 }
