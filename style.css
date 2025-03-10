@@ -77,7 +77,6 @@ h1 {
 main .team-cards>div {
     width: calc((100% - 40px) / 3);
     flex-shrink: 0;
-    background-color: #ff6900;
     height: 200px;
     border: 2px solid black;
 
