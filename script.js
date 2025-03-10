@@ -87,7 +87,7 @@ function createHTMLElement(element) {
 
   return `<div class="card-item">
     <div class="image-box">
-      <img src="${element.image}" class="team-member-image" alt="${element.name}">
+      <img src="${element.img}" class="team-member-image" alt="${element.name}">
     </div>
     <div class="text-box">
       <h2>${element.name}</h2>
