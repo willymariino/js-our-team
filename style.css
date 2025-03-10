@@ -20,7 +20,7 @@ h1 {
 }
 
 /* Main container */
-.container {
+.card-item {
     display: flex;
     align-items: center;
     max-width: 1400px;
