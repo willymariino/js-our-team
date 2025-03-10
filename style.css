@@ -48,6 +48,10 @@ h1 {
 .text-box {
     max-width: 600px;
     text-align: left;
+    background-color: black;
+    color: white;
+    margin-left: -80px;
+    height: 125px;
 }
 
 .text-box h2 {
