@@ -39,3 +39,19 @@ const teamMembers = [
 
 // seleziono elemento da html
 const newTaskElementCards = document.getElementById("team-cards")
+
+/* come agiungere un elemento a html da javascript ( struttura esercizio: simon says)
+    
+        // Creare un nuovo elemento paragrafo
+        var nuovoParagrafo = document.createElement("p");
+        // Aggiungere del testo al paragrafo
+        nuovoParagrafo.textContent = "Questo è un nuovo paragrafo aggiunto con JavaScript.";
+        // Aggiungere il paragrafo al contenitore
+        document.getElementById("contenitore").appendChild(nuovoParagrafo);
+
+        for (let i = 0; i < randomNumbers.length; i++) {
+    const li = document.createElement("li")
+    li.textContent = randomNumbers[i]
+    numbersList.appendChild(li)
+}
+   */
