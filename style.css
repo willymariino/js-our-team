@@ -65,10 +65,11 @@ h1 {
     margin-bottom: 20px;
 }
 
-main .team-cards {
+/* layout a griglia */
+
+#team-cards {
     display: flex;
     flex-wrap: wrap;
-    background-color: yellow;
     gap: 20px;
 }
 
