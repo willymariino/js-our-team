@@ -67,8 +67,9 @@ const newTaskElementCards = document.getElementById("team-cards")
    */
 renderHTML(newTaskElementCards)
 
-function addNewMembers(parent) {
+function renderHTML(parent, elements) {
   for (let i = 0; i < teamMembers.length; i++) {
+    console.log(parent)
     const div = document.createElement("div")
 
     div.innerHTML
