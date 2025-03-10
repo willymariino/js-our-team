@@ -53,5 +53,25 @@ const newTaskElementCards = document.getElementById("team-cards")
     const li = document.createElement("li")
     li.textContent = randomNumbers[i]
     numbersList.appendChild(li)
+
+     if (count === 0) {
+        console.log("indovina i numeri")
+        clearInterval(countdown)
+        instructions.textContent = "inserisci i numeri che ricordi"
+        numbersList.remove("d-none")
+        answersForm.classList.remove("d-none")
+        return
+    }
+    return
 }
    */
+
+function addNewMembers(parent) {
+  for (let i = 0; i < teamMembers.length; i++) {
+    const div = document.createElement("div")
+
+    div.innerHTML
+
+  }
+
+}
