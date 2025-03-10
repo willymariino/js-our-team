@@ -68,12 +68,22 @@ const newTaskElementCards = document.getElementById("team-cards")
 renderHTML(newTaskElementCards)
 
 function renderHTML(parent, elements) {
-  for (let i = 0; i < teamMembers.length; i++) {
-    console.log(parent)
-    const div = document.createElement("div")
+  let items = ""
 
-    div.innerHTML
+  for (let i = 0; i < elements.length; i++) {
+    console.log(parent)
+    console.log(elements)
+    const currentElement = elements[i]
+
+    items += createHTMLElement(currentElement)
+
 
   }
+  parent.innerHTML = items
+
+}
+
+function createHTMLElement(element) {
+
 
 }
