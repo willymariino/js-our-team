@@ -21,7 +21,7 @@ Each team member is displayed as a card, generated dynamically when the page loa
 - **Netlify** for deployment
 
 ## Live Demo
-[js-our-team](https://js-our-team.netlify.app/)***
+**[js-our-team](https://js-our-team.netlify.app/)**
 
 
 
