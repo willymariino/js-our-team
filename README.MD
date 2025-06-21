@@ -9,7 +9,7 @@ Each team member is displayed as a card, generated dynamically when the page loa
 
 ## Features
 
-**Data-Driven Content**: Team member informations (name, role, image, email) are stored in an array of objects.
+**Data-Driven Content**: Team members informations (name, role, image, email) are stored in an array of objects.
 **Dynamic Rendering**: Cards are created and inserted into the page using JavaScript.
 **Responsive Layout**: The page adapts to different screen sizes for better usability.
 **Separation of Concerns**: HTML structure and JS logic are clearly divided.
