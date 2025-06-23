@@ -9,15 +9,21 @@ Each team member is displayed as a card, generated dynamically when the page loa
 
 ## Features
 
-- **Data-Driven Content**: Team members informations (name, role, image, email) are stored in an array of objects.
-- **Dynamic Rendering**: Cards are created and inserted into the page using JavaScript.
-- **Responsive Layout**: The page adapts to different screen sizes for better usability.
-- **Separation of Concerns**: HTML structure and JS logic are clearly divided.
+- **Data-Driven Content:** All team data (name, role, email, image) is stored in a JS array of objects.
+- **Modular Rendering Functions:** Uses helper functions (`renderHTML`, `createHTMLElement`) for clear, reusable logic.
+- **Dynamic DOM Manipulation:** Elements are created via JavaScript and inserted at runtime.
+- **Separation of Concerns:** Clean division between data, logic, and structure.
+- **Responsive Layout:** Built using modern flexbox layout with adaptive spacing and mobile compatibility.
+
+## How It Works
+
+- `renderHTML(parent, elements)` → Iterates through the array, composes the HTML string, and injects it via `.innerHTML`.
+- `createHTMLElement(element)` → Generates the HTML markup for one card using a template literal.
 
 ## Tech Stack
 - **HTML5**
 - **CSS3**
-- **JavaScript**
+- **JavaScript (ES6)**
 - **Netlify** for deployment
 
 ## Live Demo
